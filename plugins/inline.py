@@ -17,7 +17,7 @@ async def answer(bot, query):
     if AUTH_CHANNEL and not await is_subscribed(bot, query):
         await query.answer(results=[],
                            cache_time=0,
-                           switch_pm_text='You have to subscribe my channel to use the bot',
+                           switch_pm_text='You have to subscribe my updates channel to use the bot',
                            switch_pm_parameter="subscribe")
         return
 
@@ -58,7 +58,7 @@ async def answer(bot, query):
                 reply_markup=reply_markup))
 
     if results:
-        switch_pm_text = f"{emoji.FILE_FOLDER} Results - {total}"
+        switch_pm_text = f"Type Movie/Series Name [eg:- Money Heist s04e02]"
         if string:
             switch_pm_text += f" for {string}"
         try:
@@ -89,11 +89,14 @@ async def answer(bot, query):
 
 
 def get_reply_markup(query):
-    buttons = [
-        [
-            InlineKeyboardButton('Search again', switch_inline_query_current_chat=query)
-        ]
-        ]
+    buttons = [[
+        InlineKeyboardButton('♻️ Share', url='https://t.me/share/url?url=https://t.me/mflinkzbot'),
+        InlineKeyboardButton('📢 Updates', url='t.me/mf_linkz')
+        ],[
+        InlineKeyboardButton('➕ Add Me To Your Group ➕', url='https://t.me/mflinkzbot?startgroup=true')
+        ],[
+        InlineKeyboardButton('🔎 𝖲𝖾𝖺𝗋𝖼𝗁 𝖠𝗀𝖺𝗂𝗇', switch_inline_query_current_chat=query)
+        ]]
     return InlineKeyboardMarkup(buttons)
 
 
