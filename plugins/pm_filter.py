@@ -723,5 +723,7 @@ async def advantage_spell_chok(msg):
     a = await msg.reply("I couldn't find anything related to that\nDid you mean any one of these?", reply_markup=InlineKeyboardMarkup(btn))
     await asyncio.sleep(60)
     await a.delete()
-
-
+    await client.delete_messages(
+    chat_id=chat_id,
+    message_ids=message.message_id
+)
