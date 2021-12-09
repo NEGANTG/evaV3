@@ -1,11 +1,11 @@
 class script(object):
     START_TXT = """Hello {}
  
-<b>I'm Mᴀsᴛᴇʀ ◢ ◤ or you can call me as EvaMaria Bot.Its easy to use me; just add me to your group as admin, thats all, i will provide movies there..!!</b>
+<i>I'm Mᴀsᴛᴇʀ ◢ ◤ or you can call me as EvaMaria Bot.Its easy to use me; just add me to your group as admin, thats all, i will provide movies there..!!</i>
 
 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ <a href=https://t.me/NEGANX>ɴᴇɢᴀɴ</a>"""
-    HELP_TXT = """𝙷𝙴𝚈 {}
-𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
+    HELP_TXT = """Hey {}
+Here is the help for my commands."""
     ABOUT_TXT = """➥ My Name: <a href=https://t.me/mflinkzbot>Mᴀsᴛᴇʀ ◢ ◤</a>
 ➥ Owners: <a href=https://t.me/Akfronic>Master</a> & <a href=https://t.me/NeganX>Negan</a>
 ➥ Creators: <a href=https://t.me/TeamEvamaria>Team Eva Maria</a>
@@ -94,11 +94,11 @@ This module only works for my admins
 • /unban  - <code>to unban a user.</code>
 • /channel - <code>to get list of total connected channels</code>
 • /broadcast - <code>to broadcast a message to all users</code>"""
-    STATUS_TXT = """➥ <b>Total Files</b>: <b>{}</b>
-➥ <b>Total Users</b>: <b>{}</b>
-➥ <b>Total Chats</b>: <b>{}</b>
-➥ <b>Used Storage</b>: <b>{} MiB</b> 
-➥ <b>Free Storage</b>: <b>{} MiB</b> """
+    STATUS_TXT = """➥ <b>ᴛᴏᴛᴀʟ ғɪʟᴇs</b>: <i>{}</i>
+➥ <b>ᴛᴏᴛᴀʟ ᴜsᴇʀs</b>: <i>{}</i>
+➥ <b>ᴛᴏᴛᴀʟ ᴄʜᴀᴛs</b>: <i>{}</i>
+➥ <b>ᴜsᴇᴅ sᴛᴏʀᴀɢᴇ</b>: <i>{}</i> 
+➥ <b>ғʀᴇᴇ sᴛᴏʀᴀɢᴇ</b>: <i>{}</i> """
     LOG_TEXT_G = """#NewGroup
 Group = {}(<code>{}</code>)
 Total Members = <code>{}</code>
