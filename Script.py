@@ -3,11 +3,11 @@ class script(object):
  
 <i>I'm Mᴀsᴛᴇʀ ◢ ◤ or you can call me as EvaMaria Bot.Its easy to use me; just add me to your group as admin, thats all, i will provide movies there..!!</i>
 
-ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ <a href=https://t.me/NEGANX>ɴᴇɢᴀɴ</a>"""
+ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ <a href=https://t.me/PEAKY_BLINDER_TGP>ᴘᴇᴀᴋʏ вℓιи∂єя🇮🇳/🇰🇼</a>"""
     HELP_TXT = """<i>Hey</i> {}
 <i>Here is the help for my commands.</i>"""
-    ABOUT_TXT = """➥ My Name: <a href=https://t.me/mflinkzbot>Mᴀsᴛᴇʀ ◢ ◤</a>
-➥ Owners: <a href=https://t.me/Akfronic>Master</a> & <a href=https://t.me/NeganX>Negan</a>
+    ABOUT_TXT = """➥ My Name: <a href=https://t.me/cflinkzbot>Mᴀsᴛᴇʀ ◢ ◤</a>
+➥ Owners: <a href=https://t.me/PEAKY_BLINDER_TGP>ᴘᴇᴀᴋʏ вℓιи∂єя🇮🇳/🇰🇼</a> 
 ➥ Creators: <a href=https://t.me/TeamEvamaria>Team Eva Maria</a>
 ➥ Library: <a href=https://docs.pyrogram.org/>Pyrogram Asyncio 1.13.0</a>
 ➥ Language: <a href=https://www.python.org/>Python3</a>
